@@ -6,19 +6,15 @@
 
 body {
     background: url(./assets/background.png) no-repeat;
-    
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    width: 100vw;
+    height: 100vh;
 }
 
 .wrapper {
-    margin: 2rem;
+    margin: 1.5rem;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
-    width: 100vw;
-    height: 100vh;
+    overflow-x: hidden;
 }
 
 .wrapper > input {
@@ -36,8 +32,10 @@ body {
 }
 
 .slide img {
-    width: 100%;
     border-radius: 1%;
+    width: 100%;
+    max-height: 499px;
+    object-fit: contain;
 }
 
 .text-block {
@@ -56,6 +54,7 @@ p {
     color: palevioletred;
     font-size: 1.5rem;
     -webkit-text-stroke: 1px black;
+    text-align: center;
 }
 .text {
     width: 100%;
