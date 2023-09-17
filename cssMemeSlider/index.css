@@ -34,7 +34,7 @@ body {
 .slide img {
     border-radius: 1%;
     width: 100%;
-    max-height: 499px;
+    max-height: 50rem;
     object-fit: contain;
 }
 
